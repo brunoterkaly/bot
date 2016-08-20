@@ -1,0 +1,39 @@
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Bot Application1.dll.config
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Bot Application1.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Bot Application1.pdb
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Autofac.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Chronic.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Microsoft.Bot.Builder.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Microsoft.Bot.Connector.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Microsoft.Rest.ClientRuntime.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Microsoft.WindowsAzure.Configuration.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Newtonsoft.Json.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\System.IdentityModel.Tokens.Jwt.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\System.Net.Http.Formatting.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\System.Web.Http.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\System.Web.Http.WebHost.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Autofac.xml
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Microsoft.Bot.Builder.xml
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Microsoft.Bot.Connector.xml
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Microsoft.Rest.ClientRuntime.xml
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Microsoft.WindowsAzure.Configuration.xml
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\Newtonsoft.Json.xml
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\System.IdentityModel.Tokens.Jwt.pdb
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\System.IdentityModel.Tokens.Jwt.xml
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\System.Net.Http.Formatting.xml
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\System.Web.Http.xml
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\System.Web.Http.WebHost.xml
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\ar\Microsoft.Bot.Builder.resources.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\en\Microsoft.Bot.Builder.resources.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\es\Microsoft.Bot.Builder.resources.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\fa\Microsoft.Bot.Builder.resources.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\fr\Microsoft.Bot.Builder.resources.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\ja\Microsoft.Bot.Builder.resources.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\ru\Microsoft.Bot.Builder.resources.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\obj\Debug\SampleBotApplication.csprojResolveAssemblyReference.cache
+c:\blog\bot\SampleBotApplication\SampleBotApplication\obj\Debug\Bot Application1.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\obj\Debug\Bot Application1.pdb
