@@ -21,8 +21,6 @@ Bots, by themselves, have little value. To be really useful they will leverage o
 
 Managing state in a conversation is difficult. Keeping track of what was said, the past steps in a multi-step workflow is maintained by the Bot SDK.
 
-
-
 ## Starting your work
 
 Let's begin our work by installing the Bot SDK and creating a new project in Visual Studio.
@@ -117,19 +115,17 @@ Once the project is running and you see the webpage show up, you are ready to st
 
 Your port number may be different.
 
-
 ![](./images/snap0012.png)
 
 _Figure 11: The browser experience after running the solution_
 
-
 ![](./images/snap0013.png)
 
-_Figure 24:  Starting the Bot emulator_
+_Figure 12:  Starting the Bot emulator_
 
 ![](./images/snap0014.png)
 
-_Figure 25:  Testing your app in the Bot Emulator_
+_Figure 13:  Testing your app in the Bot Emulator_
 
 #### Understanding the JSON
 
@@ -147,23 +143,21 @@ Notice for example, the following properties of the JSON interaction:
 
 As you recall, a default project was created. Notice that all that the boiler plate example provided for us was an echo back up whatever text we typed in, as well as adding the number of characters or the length of the string that the user typed in.
 
-
 ## Enhancing the default project to do something more useful
 
 At this point, we have walked through much of the process required to understand deeper challenges, such as adding language recognition to the bot. Let's explore other possibilities here with the idea that there is a huge variety of Bots that we can create.
-
 
 The core of the functionality is buried in the file called **MessagesController.cs.**
 
 ![](./images/snap0015.png)
 
-_Figure 104:  MessagesController.cs_
+_Figure 14:  MessagesController.cs_
 
 Let's take a look at the code that was generated. notice that the **Post()** method gets called anytime our code receives a message and must reply to it. You can think of this is the entry point for the Bot application, whenever the user interacts with the bot.
 
 ![](./images/snap0016.png)
 
-_Figure 104:  The "Post" method_
+_Figure 15:  The "Post" method_
 
 The logic is simple. If the user interacts with our bot by sending a message,  the if statement you see below will be true and therefore the message will get processed.
 
@@ -188,6 +182,4 @@ The logic is simple. If the user interacts with our bot by sending a message,  t
 	    var response = Request.CreateResponse(HttpStatusCode.OK);
 	    return response;
 	}
-
-
 
