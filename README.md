@@ -16,6 +16,7 @@ Bots, by themselves, have little value. To be really useful they will leverage o
 - LUIS (Language Understanding and Intelligence Servcie)
 - Speech APIs
 - Azure
+- And much more...
 
 #### The SDK provides a lot of difficult to code capabilities
 
