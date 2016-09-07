@@ -34,5 +34,6 @@ c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\zh-hans\Microsoft.Bot.
 c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\BotApplication1.dll.config
 c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\BotApplication1.dll
 c:\blog\bot\SampleBotApplication\SampleBotApplication\bin\BotApplication1.pdb
-c:\blog\bot\SampleBotApplication\SampleBotApplication\obj\Debug\BotApplication1.dll
-c:\blog\bot\SampleBotApplication\SampleBotApplication\obj\Debug\BotApplication1.pdb
+c:\blog\bot\SampleBotApplication\SampleBotApplication\obj\Release\SampleBotApplication.csprojResolveAssemblyReference.cache
+c:\blog\bot\SampleBotApplication\SampleBotApplication\obj\Release\BotApplication1.dll
+c:\blog\bot\SampleBotApplication\SampleBotApplication\obj\Release\BotApplication1.pdb

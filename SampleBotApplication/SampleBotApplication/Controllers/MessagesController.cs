@@ -29,6 +29,11 @@ namespace SampleBotApplication
                 Activity reply = activity.CreateReply($"You sent {activity.Text} which was {length} characters");
                 await connector.Conversations.ReplyToActivityAsync(reply);
             }
+            else if(activity.Type == "BotAddedToConversation")
+            {
+
+                //return activity.CreateReply("Hello person talking to bot");
+            }
             else
             {
                 HandleSystemMessage(activity);

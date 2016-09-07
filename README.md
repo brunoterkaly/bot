@@ -2,7 +2,7 @@
 
 Bots are personal assistants. The best spots out there make you feel like a director, like someone who is getting help from an external entity.
 
-The use cases for bots is enormous. It is now possible to interact  verbally and direct the behavior of an external entity, doing such things as booking airline flights, searching for news on the Internet, and more.
+The use cases for bots are enormous. It is possible to interact verbally and direct the behavior of an external entity, doing such things as booking airline flights, searching for news on the Internet, and more.
 
 The bots you can be sophisticated and are able to perform multi-step operations. What makes these bots really compelling is that they can live outside the constraints of a single device and travel through the various systems you might have in place.
 
@@ -10,10 +10,12 @@ A lot of information can be packed into a question, information that would norma
 
 ## What is the core of Microsoft Bot?
 
-Simply put, it is a Microsoft-operated service plus a framework or SDK that a developer can use to build bots.
+From a technical point of view, bots are composed of two components.
+
+A bot is first a Microsoft-operated service plus a framework or SDK that a developer can use to build bots.
 
 Bots, by themselves, have little value. To be really useful they will leverage other service and SDKs:
-- LUIS (Language Understanding and Intelligence Servcie)
+- LUIS (Language Understanding and Intelligence Service)
 - Speech APIs
 - Azure
 - And much more...
@@ -28,7 +30,7 @@ Let's begin our work by installing the Bot SDK and creating a new project in Vis
 
 This link here provide some pretty good starting documentation:
 
-https://docs.botframework.com/en-us/
+[https://docs.botframework.com/en-us/](https://docs.botframework.com/en-us/)
 
 #### Installing the Bot SDK
 
@@ -184,3 +186,79 @@ The logic is simple. If the user interacts with our bot by sending a message,  t
 	    return response;
 	}
 
+#### Adding LUIS support
+
+LUIS is a Language Understanding Intelligent Service. You can enable your bot to understand human commands with it.
+
+To begin, you need to register a new application.
+
+[https://www.luis.ai/](https://www.luis.ai/)
+
+Fill in:
+
+- Country
+- Organization
+- And the rest
+
+![](./images/snap0017.png)
+
+_Figure 16:  Signing up with LUIS_
+
+Select "New Application."
+
+![](./images/snap0018.png)
+
+_Figure 17:  Adding a New Application_
+
+Fill in "Application Name" and "Usage Scenario."
+
+![](./images/snap0019.png)
+
+_Figure 18:  Specifying Application details_
+
+Scroll to bottom and choose "Add App."
+
+![](./images/snap0020.png)
+
+_Figure 19:  Scroll to bottom to "Add App"_
+
+After a few moments, add a new "Entity." We are doing a search for products. So think of "entity" as "laptop" and "Intent" as "Product".
+
+You will need to add "Entities" through the portal. Entities represent the main conceptual aspects or search keywords of your LUIS-based application. In our case, the "entity" will be "laptop." Think of an "entity" of a product we wish to find the price for.  The next key point to make is "Intents." In our case, the intent will be "product." An example of a "product" is a "laptop." "Intent" in this case represents what we desire to find the price for.
+
+Just to be clear, our "Entity" will be "laptop" and our "intent" will be "product."
+
+
+
+![](./images/snap0021.png)
+
+_Figure 102:  x_
+
+![](./images/snap0022.png)
+
+_Figure 103:  x_
+
+![](./images/snap0023.png)
+
+_Figure 104:  x_
+
+
+
+
+http://www.c-sharpcorner.com/article/an-interactive-bot-application-with-luis-using-microsoft-bot/
+
+
+https://dev.botframework.com/bots?id=PriceFinderBot
+
+- App Name
+	- PricingBot
+- AppId 
+	- c659cfea-dd85-4f12-9e14-2e49e41332de
+- Messaging Endpoint
+	- http://pricingbot.azurewebsites.net/
+- Password
+	- Mqj9z09TQKF7pwajGggVJJv
+- Bot registration
+	- https://dev.botframework.com/bots?id=PriceFinderBot
+- Getting started
+	- https://docs.botframework.com/en-us/csharp/builder/sdkreference/gettingstarted.html
